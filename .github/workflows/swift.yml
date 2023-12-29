@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: swift build -v
+      run: swiftc application.swift
       working-directory: SFM
     - name: Run tests
       run: swift test -v
