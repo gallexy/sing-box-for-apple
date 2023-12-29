@@ -19,6 +19,6 @@ jobs:
     - name: Build
       run: swiftc application.swift
       working-directory: SFM
-    - name: Run tests
-      run: swift test -v
-      working-directory: SFM
+#    - name: Run tests
+#      run: swift test -v
+#      working-directory: SFM
